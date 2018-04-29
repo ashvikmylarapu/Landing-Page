@@ -1,0 +1,63 @@
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Merriweather', serif;*/
+
+
+.photo img{
+	width: 100%;
+}
+.container-fluid{
+	font-family: 'Merriweather', serif;
+	font-style: 16px;
+}
+.education{
+	padding-bottom: 5%;
+}
+
+.container{
+	margin-top: 5%;
+}
+
+.placeinbw{
+	text-align: center;
+	vertical-align: middle;
+}
+.padtopbottom{
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.basicinfo{
+	color:white;
+}
+.back{
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.pad{
+	padding-top: 2%;
+	padding-bottom: 2%;	
+}
+.footer{
+	background: rgb(25,25,25);
+}
+.fab{
+	color: white;
+}
+i:hover{
+	color:#888888;
+}
+.bgcolor{
+background: linear-gradient(#ff3300, yellow);
+}
+
+.fontroboto
+{
+	font-family: 'Roboto Slab', serif;
+}
+hr{
+	width: 55%;
+}
+.mar{
+	margin-left: 15px;
+}
+.education{
+	padding-top: 30px;
+}
