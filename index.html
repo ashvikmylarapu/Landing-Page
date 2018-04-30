@@ -4,6 +4,9 @@
 	<title>Ashvik</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Student,Programmer,Developer">
+	<meta name="description" content="The Best developer and a quick learner">
+	<meta property="og:image" content="profilepic.jpg">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto+Slab:700" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
@@ -13,8 +16,8 @@
 <body>
 	<div class="container-fluid">
 		<div class="row back">
-			<div class=" col-xs-4 photo">
-				<img class="img-circle" src="profilepic.jpg" alt="Ashvik">
+			<div class=" col-xs-4 photo center-block">
+				<img class="img-circle img-responsive" src="profilepic.jpg" alt="Ashvik">
 			</div>
 
 			<div class="col-xs-8 basicinfo padtopbottom placeinbw">
@@ -26,17 +29,33 @@
 			</div>
 		</div>
 
-		<div class="education placeinbw">
-			
+		<div class="education placeinbw row">
 				<legend class="fontroboto">Education</legend>
-				<p><strong>Graduation:</strong> CSE, CBIT</p>
-				<p><strong>Intermediate:</strong> MPC, Narayana Junior college</p>
-				<p><strong>SSC:</strong> Blooming Buds High School</p>	
+				<div class="col-md-4">
+					<h3 class="txtblue">Graduation</h3>
+					<p>Chaitanya Bharathi Institute Of Technology</p>
+					<p>CSE</p>
+					<p>2015-2019</p>
+				</div>
+				<div class="col-md-4">
+					<h3 class="txtblue">Intermediate</h3>
+					<p>Narayana Junior college</p>
+					<p>MPC</p>
+					<p>203-2015</p>
+				</div>
+				<div class="col-md-4">
+					<h3 class="txtblue">Schooling</h3>	
+					<p>Blooming Buds High School</p>
+					<p>SSC</p>
+					<p>2003-2013</p>
+				</div>
 		</div>
+	</div>
+	<div class="container-fluid">
 		<div class="bgcolor">
 			<div class="skills row">
-				<h2 class="text-uppercase fontroboto mar">skills</h2>
-
+				<h2 class="text-uppercase fontroboto mar">Professional skills</h2>
+				<!-- <h4 class="mar">I'm Good At...</h4> -->
 				<div class="programminglang col-sm-6">
 					<h3 class="fontroboto">Programming Languages</h3>
 					<ul class="list-group">
@@ -55,36 +74,37 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="projects col-sm-8 ">
-					<h2 class="fontroboto">Projects</h2>
-					<ul>
-						<li>Visualization of Towers of Hanoi </li>
-						<li>Standalone Banking System</li>
-					</ul>
-					
+			<div class="row projects ">
+				<h2 class="fontroboto mar">Projects</h2>
+				<div class="col-sm-6 placeinbw smlwidth" style="padding-left:13%;padding-right:13%;">
+						<h4>Visualization of Towers of Hanoi </h4>
+						<p>This Java Applet how exactly the recursion algorithms works and clearly shows us the moving discs from one tower to another.</p>
+				
 				</div>
-
-				<div class="col-sm-4 placeinbw">
-					<h2 class="fontroboto">Contact</h2>
-					<p><strong>Email:</strong> ashvikguptamylarapu@gmail.com</p>
-					
+				<div class="col-sm-6 placeinbw smlwidth" style="padding-left:13%;padding-right:13%;">
+					<h4>Standalone Banking System</h4>
+					<p>This is a stand alone banking application, which allows to perform basic banking transactions. All the information is stored in files.</p>
 				</div>
 			</div>
 		</div>
+	</div>
 
-
-
-		<div class="footer placeinbw pad">
-			<ul class="list-inline">
-				<li><i class="fab fa-facebook-f fa-lg"></i></li>
-				<li><i class="fab fa-github fa-lg"></i></li>
-				<li><i class="fab fa-linkedin-in fa-lg"></i></li>
-				<li><i class="fab fa-google-plus-g fa-lg"></i></li>
-			</ul>
+		<div class="row">
+			<div class="footer placeinbw pad col-xs-4">
+				<ul class="list-inline">
+					<li><a href="https://www.facebook.com/mylarapu.ashvik" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+					<li><a href="https://github.com/ashvikmylarapu" target="_blank"><i class="fab fa-github fa-lg"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-xs-8 placeinbw footer txtwhite">
+					<h2 class="fontroboto">Contact</h2>
+					<i class="fas fa-envelope fa-1.3x"></i>
+					<strong>Email:</strong>
+					<span>ashvikguptamylarapu@gmail.com</span>
+					
+			</div>
 		</div>
 		
-	</div>
 
 </body>
 </html>

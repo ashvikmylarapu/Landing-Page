@@ -1,9 +1,14 @@
 /*font-family: 'Roboto Slab', serif;
 font-family: 'Merriweather', serif;*/
-
+body{
+	margin:0px;
+}
 
 .photo img{
-	width: 100%;
+	width: 50%;
+}
+.smlwidth{
+	width: 50%;
 }
 .container-fluid{
 	font-family: 'Merriweather', serif;
@@ -46,6 +51,7 @@ i:hover{
 }
 .bgcolor{
 background: linear-gradient(#ff3300, yellow);
+background: linear-gradient(#706C61,#899E8B,#99C5B5,#AFECE7,#81F499);
 }
 
 .fontroboto
@@ -61,3 +67,16 @@ hr{
 .education{
 	padding-top: 30px;
 }
+.txtwhite{
+	color:white;
+}
+.txtblue{
+	color: #2196F3;
+}
+.projects h4{
+	/*color: #536668;*/
+	/*color: rgba(10, 10, 10 ,1);*/
+	color:#0E7BD8;
+}
+
+
